@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+*.egg-info/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Local runtime state
+data/
+*.sqlite3
+run_snapshot.json
+tool_calls.jsonl
+
+# Local Docker state
+.docker/
+
+# Claude temporary worktrees
+.claude/worktrees/
