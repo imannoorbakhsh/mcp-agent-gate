@@ -2,7 +2,6 @@
 
 A bounded, observable Python agent that uses local task and calendar MCP tools.
 
-**Status: ~60%, work in progress**
 
 ## Architecture
 
